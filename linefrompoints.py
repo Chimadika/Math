@@ -1,0 +1,9 @@
+x1 = 8
+y1 = 0
+x2 = 9
+y2 = 3
+xchange = x2 - x1 
+ychange = y2 - y1
+slope = ychange/xchange
+yintercept = y2 - (slope*x2)
+print("y =" + str(slope) + "x +" + str(yintercept))
